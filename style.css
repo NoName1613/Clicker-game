@@ -1,0 +1,58 @@
+body {
+    background-color: #0f172a;
+    color: #f8fafc;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+.game-container {
+    text-align: center;
+    background: #1e293b;
+    padding: 30px;
+    border-radius: 16px;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.5);
+}
+.arena {
+    display: flex;
+    gap: 40px;
+    margin: 20px 0;
+}
+.player-box {
+    background: #334155;
+    padding: 20px;
+    border-radius: 12px;
+    width: 150px;
+}
+.score {
+    font-size: 48px;
+    font-weight: bold;
+    margin: 10px 0;
+    color: #38bdf8;
+}
+.tap-btn {
+    width: 100%;
+    padding: 15px;
+    font-size: 20px;
+    font-weight: bold;
+    background: #f43f5e;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: transform 0.1s;
+}
+.tap-btn:active {
+    transform: scale(0.95);
+}
+#start-btn {
+    padding: 12px 30px;
+    font-size: 18px;
+    background: #22c55e;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+}
